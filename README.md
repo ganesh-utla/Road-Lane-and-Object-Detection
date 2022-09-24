@@ -50,4 +50,3 @@ near the model.
 ![image](https://user-images.githubusercontent.com/87692393/192104085-be77ecef-cdc3-4e89-8532-83a9a7750073.png)
 ``Sample Output:``<br>
 ![image](https://user-images.githubusercontent.com/87692393/192104344-c4a518bb-6ec8-40c5-8f4d-13c1ff2421d1.png)
->>>>>>> 23b420c62951dc4e58f6d74d4263091d96d644a0
