@@ -169,7 +169,7 @@ def process(image):
     return image_with_lines
 
 # cap = cv2.VideoCapture(0) # For Live Capture
-cap = cv2.VideoCapture('./roadlane-detection.mp4')
+cap = cv2.VideoCapture('./detection.mp4')
 
 
 while cap.isOpened():

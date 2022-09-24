@@ -2,7 +2,7 @@ import cv2
 
 THRESHOLD = 0.5
 
-cap = cv2.VideoCapture('./object-detection.mp4') # reads the video file
+cap = cv2.VideoCapture('./detection.mp4') # reads the video file
 # setting the constraints
 cap.set(3,1280)
 cap.set(4,720)
