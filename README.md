@@ -1,5 +1,5 @@
 <h1 align="center">Road Lane and Object Detection</h1>
-<p align="center">The model for detecting the road lane and object detection</p>
+<p align="center">The model for detecting the road lane and objects near the model</p>
 
 ## Prerequisites
 
@@ -38,4 +38,10 @@ Transform. [``Hough
 transformation``](https://r.search.yahoo.com/_ylt=Awr9.5pRFC9jFngbGEIM34lQ;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1664058577/RO=10/RU=https%3a%2f%2fwww.educba.com%2fopencv-hough-transform%2f%23%3a~%3atext%3dWorking%2520of%2520Hough%2520Transform%2520in%2520OpenCV%2520Simple%2520shapes%2cusing%2520HoughLines%2520%2528%2529%2520function%2520and%2520HoughLinesP%2520%2528%2529%2520function./RK=2/RS=lxFJteA5RFZMoMfmHqTQnnHKDvI-)
 can detect shapes like rectangles, circles, triangles, and lines.
 
-- By using these functions/tools, we implemented this model.
+- We will use DNN detection model which is based on Deep Neural Networks. We will train this model using the [weights
+file](https://github.com/ganesh-utla/Road-Lane-and-Object-Detection/blob/main/files/other/frozen_inference_graph.pb) and
+[config
+file](https://github.com/ganesh-utla/Road-Lane-and-Object-Detection/blob/main/files/other/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt). And then highlight the objects using [``cv2.rectangle``](https://r.search.yahoo.com/_ylt=AwrOslWSGy9jM80aOIkM34lQ;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1664060434/RO=10/RU=https%3a%2f%2fwww.geeksforgeeks.org%2fpython-opencv-cv2-rectangle-method%2f/RK=2/RS=D9BP.CYQft07u9dxMw2S7vZNsPk-) 
+near the model. 
+
+- By using these functions/tools, we will implement this model.
