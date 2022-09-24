@@ -39,3 +39,8 @@ transformation``](https://r.search.yahoo.com/_ylt=Awr9.5pRFC9jFngbGEIM34lQ;_ylu=
 can detect shapes like rectangles, circles, triangles, and lines.
 
 - By using these functions/tools, we implemented this model.
+
+[``Sample Input:``]
+![image](https://user-images.githubusercontent.com/87692393/192104085-be77ecef-cdc3-4e89-8532-83a9a7750073.png)
+[``Sample Output:``]
+![image](https://user-images.githubusercontent.com/87692393/192104344-c4a518bb-6ec8-40c5-8f4d-13c1ff2421d1.png)
