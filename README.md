@@ -38,6 +38,7 @@ Transform. [``Hough
 transformation``](https://r.search.yahoo.com/_ylt=Awr9.5pRFC9jFngbGEIM34lQ;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1664058577/RO=10/RU=https%3a%2f%2fwww.educba.com%2fopencv-hough-transform%2f%23%3a~%3atext%3dWorking%2520of%2520Hough%2520Transform%2520in%2520OpenCV%2520Simple%2520shapes%2cusing%2520HoughLines%2520%2528%2529%2520function%2520and%2520HoughLinesP%2520%2528%2529%2520function./RK=2/RS=lxFJteA5RFZMoMfmHqTQnnHKDvI-)
 can detect shapes like rectangles, circles, triangles, and lines.
 
+<<<<<<< HEAD
 - We will use DNN detection model which is based on Deep Neural Networks. We will train this model using the [weights
 file](https://github.com/ganesh-utla/Road-Lane-and-Object-Detection/blob/main/files/other/frozen_inference_graph.pb) and
 [config
@@ -45,3 +46,11 @@ file](https://github.com/ganesh-utla/Road-Lane-and-Object-Detection/blob/main/fi
 near the model. 
 
 - By using these functions/tools, we will implement this model.
+=======
+- By using these functions/tools, we implemented this model.
+
+``Sample Input:``
+![image](https://user-images.githubusercontent.com/87692393/192104085-be77ecef-cdc3-4e89-8532-83a9a7750073.png)
+``Sample Output:``
+![image](https://user-images.githubusercontent.com/87692393/192104344-c4a518bb-6ec8-40c5-8f4d-13c1ff2421d1.png)
+>>>>>>> 23b420c62951dc4e58f6d74d4263091d96d644a0
