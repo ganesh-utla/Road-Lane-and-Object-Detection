@@ -2,7 +2,7 @@
 import cv2
 import os
 
-cam = cv2.VideoCapture("./videofile.mp4") # reads the video file
+cam = cv2.VideoCapture("../../media/videos/detection.mp4") # reads the video file
 path_for_images = 'path' # give the path for the images that you will convert from video
 
 

@@ -47,19 +47,19 @@ def process(image):
 
 THRESHOLD = 0.5
 
-cap = cv2.VideoCapture('./detection.mp4')
+cap = cv2.VideoCapture('../../media/videos/detection.mp4')
 # cap = cv2.VideoCapture('C:/Users/ganes/Downloads/lane-line-detection-project-code/demo/test_video.mp4')
 cap.set(3,1280)
 cap.set(4,720)
 cap.set(10,70)
 
 classNames = []
-classFile = './coco.names'
+classFile = '../other/coco.names'
 with open(classFile) as f:
     classNames = f.read().rstrip('\n').split('\n')
 
-configPath = './ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
-weightsPath = './frozen_inference_graph.pb'
+configPath = '../other/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
+weightsPath = '../other/frozen_inference_graph.pb'
 
 net = cv2.dnn_DetectionModel(weightsPath, configPath)
 net.setInputSize(320, 320)
@@ -69,7 +69,7 @@ net.setInputSwapRB(True)
 
 
 # Detection for the image
-img = cv2.imread('./roadlane.jpg')
+img = cv2.imread('../../media/images/roadlane.jpg')
 classIds, confs, bbox = net.detect(img, confThreshold=THRESHOLD)
 # print(classIds, bbox)
 if len(classIds)!=0:

@@ -3,7 +3,7 @@
 import cv2 
 import numpy as np
 
-img = cv2.imread('./roadlane.jpg')
+img = cv2.imread('../../media/images/roadlane.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray, 50, 150, apertureSize=3)
 # cv2.imshow('edges', edges)
@@ -28,7 +28,7 @@ import matplotlib.pylab as plt
 import cv2
 import numpy as np
 
-image = cv2.imread('./roadlane.jpg')
+image = cv2.imread('../../media/images/roadlane.jpg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 # print(image.shape)
@@ -86,7 +86,7 @@ def drow_the_lines(img, lines):
     img = cv2.addWeighted(img, 0.8, blank_image, 1, 0.0)
     return img
 
-image = cv2.imread('./roadlane.jpg')
+image = cv2.imread('../../media/images/roadlane.jpg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 print(image.shape)
 height = image.shape[0]
@@ -169,7 +169,7 @@ def process(image):
     return image_with_lines
 
 # cap = cv2.VideoCapture(0) # For Live Capture
-cap = cv2.VideoCapture('./detection.mp4')
+cap = cv2.VideoCapture('../../media/videos/detection.mp4')
 
 
 while cap.isOpened():
